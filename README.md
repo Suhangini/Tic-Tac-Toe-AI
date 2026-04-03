@@ -54,4 +54,4 @@ This demonstrates basic concepts of:
 ## ▶️ How to Run
 
 ```bash
-python your_file_name.py
+python tic_tac_toe_gui.py
