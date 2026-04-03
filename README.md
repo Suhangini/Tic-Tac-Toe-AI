@@ -1,29 +1,57 @@
 # 🧠 Tic Tac Toe AI - GUI Version
 
-A classic **Tic Tac Toe** game built with **Python's Tkinter**, where you can play against an AI with 3 difficulty levels: ***Easy***, ***Medium***, and ***Hard***.  
-The game has an elegant GUI with themed colors, hover effects, confetti on winning, and smooth overlays for results.
+An interactive **Tic Tac Toe game** built using **Python and Tkinter**, where a human player competes against an intelligent AI system.  
+The project demonstrates **game logic, GUI design, and Artificial Intelligence (Minimax Algorithm)** in a simple and engaging way.
+
+---
+
+## 🎯 Objective
+
+To design and implement a graphical Tic Tac Toe game that:
+- Provides an interactive user interface
+- Implements AI-based decision making
+- Demonstrates different levels of game difficulty
 
 ---
 
 ## 🎮 Features
 
-- ✅ Play as **Player (X)** against **AI (O 🤖)**
-- 🧠 **3 Difficulty Levels**:
-  - Easy – Random moves
-  - Medium – Semi-smart
-  - Hard – Unbeatable (Minimax Algorithm)
-- 🖌️ Custom themed board colors based on difficulty
-- 🖱️ Hover effect on cells
-- 🎉 Confetti animation on win
-- 🔁 Restart game or change difficulty any time
-- 💯 Scoreboard tracks wins
+- 🎯 Player (**X**) vs AI (**O 🤖**)
+- 🧠 **Three Difficulty Levels**:
+  - **Easy** – Random AI moves  
+  - **Medium** – Semi-intelligent strategy  
+  - **Hard** – Unbeatable AI using **Minimax Algorithm**
+- 🎨 Dynamic board themes based on difficulty
+- 🖱️ Hover effects for better UI experience
+- 🎉 Confetti animation on winning
+- 📊 Live **Score Tracking System**
+- 🔁 Restart and difficulty change options
 
 ---
 
+## 🧠 AI Implementation
 
+The **Hard mode AI** uses the **Minimax Algorithm**, which:
+- Simulates all possible game outcomes
+- Chooses the optimal move
+- Ensures the AI **never loses**
+
+This demonstrates basic concepts of:
+- Game Theory
+- Decision Trees
+- Recursive Algorithms
+
+---
 
 ## 🛠️ Tech Stack
 
 - **Python 3.x**
-- **Tkinter** – for GUI
-- **Minimax Algorithm** – for unbeatable AI
+- **Tkinter** – GUI framework
+- **Minimax Algorithm** – AI logic
+
+---
+
+## ▶️ How to Run
+
+```bash
+python your_file_name.py
